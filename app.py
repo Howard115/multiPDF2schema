@@ -225,7 +225,6 @@ def image_to_schema():
                 st.error(f"An error occurred: {str(e)}")
 
 def main():
-    st.title("PDF and Image Processing App")
 
     # Create a sidebar for navigation
     st.sidebar.title("Features")
@@ -247,8 +246,10 @@ def main():
     if st.session_state.extract_pdf:
         pdf_extractor()
     if st.session_state.pdf_to_image:
+        st.divider()
         pdf_to_image()
     if st.session_state.image_to_json:
+        st.divider()
         image_to_schema()
 
 if __name__ == "__main__":
