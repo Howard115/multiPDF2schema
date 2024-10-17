@@ -239,9 +239,9 @@ def main():
         st.session_state.image_to_json = False
 
     # Create checkboxes for each feature
-    st.session_state.extract_pdf = st.sidebar.checkbox("Extract PDF Page", value=st.session_state.extract_pdf)
-    st.session_state.pdf_to_image = st.sidebar.checkbox("PDF to Image", value=st.session_state.pdf_to_image)
-    st.session_state.image_to_json = st.sidebar.checkbox("Image to JSON", value=st.session_state.image_to_json)
+    st.session_state.extract_pdf = st.sidebar.checkbox("Extract PDF Page", value=True)
+    st.session_state.pdf_to_image = st.sidebar.checkbox("PDF to Image", value=True)
+    st.session_state.image_to_json = st.sidebar.checkbox("Image to JSON", value=True)
 
     # Display the selected features
     if st.session_state.extract_pdf:
