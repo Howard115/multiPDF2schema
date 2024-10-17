@@ -41,6 +41,28 @@ This will take you to the live application where you can immediately begin using
 
 Note: You can perform these steps sequentially or use individual features as required. Make sure to have the necessary API keys for PDF-to-image conversion and JSON schema generation. 🔑
 
+## Getting API Keys
+
+To use all features of multiPDF2schema, you'll need to obtain two API keys:
+
+### ILovePDF Public Key
+
+1. Go to [https://www.iloveapi.com/user/projects](https://www.iloveapi.com/user/projects)
+2. Sign up for a free account or log in if you already have one.
+3. Once logged in, you'll see your projects listed.
+4. If you don't have a project yet, create a new one.
+5. Your public key will be displayed in the project details.
+
+### OpenAI API Key
+
+1. Visit [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+2. Sign up for an account or log in to your existing account.
+3. On this page, you'll see your existing API keys or can create a new one.
+4. Click on "Create new secret key" to generate a new API key.
+5. Make sure to copy the key immediately and store it securely, as you won't be able to see it again.
+
+Remember to keep these API keys secure and never share them publicly. 🔐
+
 ## Local Installation (For Developers) 👨‍💻👩‍💻
 
 If you want to run the application locally or contribute to the project:
